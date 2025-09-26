@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body{
+            width:97%;
+            height:100vh;
+            display: flex;
+            flex-direction: column;
+            
+            align-items: center;
+           background: #590d0d;
+           background: linear-gradient(345deg, rgba(89, 13, 13, 1) 0%, rgba(92, 176, 255, 1) 100%);
+           background-repeat: no-repeat;
+           background-size: cover;
+        }
+        .bookmart{
+            font-family: sans-serif;
+            letter-spacing: 15px;
+            font-size: 35px;
+            font-weight: bold;
+            color:whitesmoke;
+            margin-top: 100px;
+           
+        }
+        .slogan{
+            color:yellow;
+            margin-bottom: 10px;
+            letter-spacing: 4px;
+            margin-top: 5px;
+            font-family: Cascadia Code;
+        }
+      
+        .login-form{
+            width:350px;
+            height: 290px;
+            box-shadow: 2px 2px 6px black;
+            padding: 10px;
+            background-color: whitesmoke;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        .title{
+            text-align: center;
+            font-family: Arial;
+            font-weight: bold;
+            color:blueviolet;
+            font-size: 25px;
+            padding: 5px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .input-box input{
+            outline:none;
+            border:none;
+            height: 20px;
+            width:100%;
+            background-color: transparent;
+        }
+
+        .input-box{
+            margin: 10px;
+            padding: 5px;
+            border:2px solid blueviolet;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .login-button input{
+            background-color: transparent;
+            border:none;
+            width: 100%;
+            cursor: pointer;
+            color:white;
+            font-weight: bold;
+           
+        }
+
+        .login-button{
+            background-color: blue;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 30px;
+            
+        }
+        .login-button:hover{
+            background-color: green;
+        }
+
+        @media screen and (max-width:767px)
+        {
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bookmart">BookMart</div>
+   <span class="slogan">Swap a book, spark a mind</span>
+    
+    <div class="login-form">
+        <div class="title">User Login</div>
+        <div class="input-box">
+            <input type="email"  placeholder="Email or Phone Number">
+        </div>
+
+        <div class="input-box">
+            <input type="password" placeholder="Password">
+        </div>
+
+        <div class="login-button">
+            <input type="button" value="Login">
+        </div>
+    </div>
+</body>
+</html>
